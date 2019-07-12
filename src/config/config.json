@@ -1,0 +1,34 @@
+{
+    "pageSettings": {
+        "waitUntil":[
+            "load", 
+            "networkidle2"
+        ]
+    },
+    "credentials": {
+        "username": "YOUR_USER_NAME",
+        "password": "YOUR_PASSWORD"
+    },
+    "tags": [
+        "TAG_LIST"
+    ],
+    "browserSettings": {
+        "headless": false
+    },
+    "buttons": {
+        "connectButton": "//a[contains(text(), \"Log in\")]",
+        "loginButton": "//div[contains(text(), \"Log In\")]",
+        "closeButton": "//button[contains(text(), \"Close\")]"
+    },
+    "inputs": {
+        "username":"input[name=\"username\"]",
+        "password":"input[name=\"password\"]"
+    },
+    "selectors": {
+        "secondDiv": "article > div:nth-child(3) img[class=\"FFVAD\"]"
+    },
+    "span": {
+        "modal": "span[id=\"react-root\"][aria-hidden=\"true\"]",
+        "like": "span[aria-label=\"Like\"]"
+    }
+}

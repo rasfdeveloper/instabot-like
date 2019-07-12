@@ -1,0 +1,12 @@
+{
+  "name": "InstaLikeBot",
+  "version": "1.0.0",
+  "description": "Simple instagram bot for like",
+  "main": "index.js",
+  "author": "Renato Franco",
+  "dependencies": {
+    "puppeteer": "^1.18.1"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
